@@ -60,7 +60,7 @@ def cake_experiment(load_dataset_fn, dataset_name, p, run_times, c, args):
         for i, (data, _) in enumerate(train_loader):
             data[0] = data[0].cuda()
             data[1] = data[1].cuda()
-            save_image(data[0][:100], "%d_dec.png" % epoch, nrow=10, normalize=True)
+            save_image(data[0][:100], "tmp/%d_dec.png" % epoch, nrow=10, normalize=True)
             loss = trainer.trainer(data, epoch, memory)
             contrastive_loss.update(loss["Contrastive loss"])
             regularize_loss.update(loss["Regularize loss"])

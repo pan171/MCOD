@@ -2,6 +2,19 @@ MCOD
 The implementation for "Unsupervised Outlier Detection Using Memory and Contrastive Learning"
 https://ieeexplore.ieee.org/document/9913887
 
+
+
+```
+conda create -n mcod python=3.8
+source activate mcod
+
+
+pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+
+pip install -r requirements.txt
+```
+
+
 If you find this work useful in your research, please consider citing:
 
     @ARTICLE{9913887,

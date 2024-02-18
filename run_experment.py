@@ -1,6 +1,6 @@
 import argparse
-from outlier_datasets import load_cifar10_with_outliers, load_cifar100_with_outliers, \
-    load_fashion_mnist_with_outliers, load_mnist_with_outliers, load_svhn_with_outliers
+# from outlier_datasets import load_cifar10_with_outliers, load_cifar100_with_outliers, load_fashion_mnist_with_outliers, load_mnist_with_outliers, load_svhn_with_outliers
+from outlier_datasets import load_cifar10_with_outliers, load_fashion_mnist_with_outliers, load_mnist_with_outliers
 from cake_main import cake_experiment
 import numpy as np
 import sys
@@ -39,8 +39,8 @@ if __name__ == '__main__':
     experiments_list = {'mnist': (load_mnist_with_outliers, 'mnist', 10),
                         'fashion_mnist': (load_fashion_mnist_with_outliers, 'fashion-mnist', 10),
                         'cifar10': (load_cifar10_with_outliers, 'cifar10', 10),
-                        'svhn': (load_svhn_with_outliers, 'svhn', 10),
-                        'cifar100': (load_cifar100_with_outliers, 'cifar100', 20)
+                        # 'svhn': (load_svhn_with_outliers, 'svhn', 10),
+                        # 'cifar100': (load_cifar100_with_outliers, 'cifar100', 20)
                         }
 
 

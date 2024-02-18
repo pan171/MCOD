@@ -1,0 +1,5 @@
+tmp/*
+mnist_data/*
+cifar10_data/*
+fashion_mnist_data/*
+__pycache__/*
