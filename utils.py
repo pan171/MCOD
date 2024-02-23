@@ -43,7 +43,8 @@ def get_class_name_from_index(index, dataset_name):
                           'ankle-boot'),
         'cats-vs-dogs': ('cat', 'dog'),
         'mnist':('0', '1', '2', '3', '4', '5', '6', '7', '8', '9'),
-        'svhn':('0', '1', '2', '3', '4', '5', '6', '7', '8', '9')
+        'svhn':('0', '1', '2', '3', '4', '5', '6', '7', '8', '9'),
+        'stl10': ('0', '1', '2', '3', '4', '5', '6', '7', '8', '9')
     }
 
     return ind_to_name[dataset_name][index]

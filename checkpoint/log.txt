@@ -1,8 +1,10 @@
 True
+Files already downloaded and verified
+Files already downloaded and verified
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
 ================================================================
-            Conv2d-1           [-1, 16, 32, 32]             144
+            Conv2d-1           [-1, 16, 32, 32]             432
        BatchNorm2d-2           [-1, 16, 32, 32]              32
               ReLU-3           [-1, 16, 32, 32]               0
             Conv2d-4           [-1, 64, 32, 32]           9,216
@@ -38,73 +40,13 @@ True
            Linear-34                   [-1, 10]           1,290
        WideResNet-35  [[-1, 256], [-1, 128], [-1, 10]]               0
 ================================================================
-Total params: 1,230,138
-Trainable params: 1,230,138
+Total params: 1,230,426
+Trainable params: 1,230,426
 Non-trainable params: 0
 ----------------------------------------------------------------
-Input size (MB): 0.00
+Input size (MB): 0.01
 Forward/backward pass size (MB): 10.75
 Params size (MB): 4.69
-Estimated Total Size (MB): 15.45
+Estimated Total Size (MB): 15.46
 ----------------------------------------------------------------
 => no checkpoint found at 'checkpoint'
-train starting.........
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [1][24/24]	Time 0.146 (0.173)	Contrastive Loss 7.50497	Cluster Loss 4.12125	Regularize Loss 0.38467	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [2][24/24]	Time 0.042 (0.159)	Contrastive Loss 8.31583	Cluster Loss 2.30708	Regularize Loss 0.36926	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [3][24/24]	Time 0.041 (0.163)	Contrastive Loss 8.31563	Cluster Loss 1.82009	Regularize Loss 0.36690	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [4][24/24]	Time 0.041 (0.158)	Contrastive Loss 8.31550	Cluster Loss 1.44778	Regularize Loss 0.36257	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [5][24/24]	Time 0.041 (0.158)	Contrastive Loss 8.31539	Cluster Loss 1.29056	Regularize Loss 0.36202	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [6][24/24]	Time 0.041 (0.161)	Contrastive Loss 8.31528	Cluster Loss 1.26750	Regularize Loss 0.35905	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [7][24/24]	Time 0.041 (0.162)	Contrastive Loss 8.31524	Cluster Loss 1.04677	Regularize Loss 0.35727	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [8][24/24]	Time 0.044 (0.160)	Contrastive Loss 8.31500	Cluster Loss 0.83752	Regularize Loss 0.36626	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [9][24/24]	Time 0.041 (0.158)	Contrastive Loss 8.31481	Cluster Loss 0.78500	Regularize Loss 0.36116	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [10][24/24]	Time 0.040 (0.161)	Contrastive Loss 8.31463	Cluster Loss 0.74189	Regularize Loss 0.35632	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [11][24/24]	Time 0.040 (0.157)	Contrastive Loss 8.31450	Cluster Loss 0.66095	Regularize Loss 0.35763	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [12][24/24]	Time 0.041 (0.160)	Contrastive Loss 8.31446	Cluster Loss 0.59050	Regularize Loss 0.35116	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [13][24/24]	Time 0.040 (0.160)	Contrastive Loss 8.31430	Cluster Loss 0.63871	Regularize Loss 0.34823	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [14][24/24]	Time 0.041 (0.158)	Contrastive Loss 8.31413	Cluster Loss 0.52703	Regularize Loss 0.34859	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [15][24/24]	Time 0.040 (0.158)	Contrastive Loss 8.31398	Cluster Loss 0.59199	Regularize Loss 0.34977	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [16][24/24]	Time 0.040 (0.159)	Contrastive Loss 8.31379	Cluster Loss 0.47919	Regularize Loss 0.35116	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [17][24/24]	Time 0.040 (0.159)	Contrastive Loss 8.31364	Cluster Loss 0.42077	Regularize Loss 0.34265	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [18][24/24]	Time 0.040 (0.158)	Contrastive Loss 8.31353	Cluster Loss 0.43049	Regularize Loss 0.34218	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [19][24/24]	Time 0.040 (0.158)	Contrastive Loss 8.31327	Cluster Loss 0.41561	Regularize Loss 0.35407	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [20][24/24]	Time 0.041 (0.160)	Contrastive Loss 8.31295	Cluster Loss 0.33518	Regularize Loss 0.34684	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [21][24/24]	Time 0.041 (0.160)	Contrastive Loss 8.31279	Cluster Loss 0.33976	Regularize Loss 0.33777	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [22][24/24]	Time 0.040 (0.167)	Contrastive Loss 8.31257	Cluster Loss 0.27661	Regularize Loss 0.34758	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [23][24/24]	Time 0.041 (0.172)	Contrastive Loss 8.31248	Cluster Loss 0.30726	Regularize Loss 0.33687	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [24][24/24]	Time 0.048 (0.161)	Contrastive Loss 8.31219	Cluster Loss 0.24606	Regularize Loss 0.33446	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [25][24/24]	Time 0.040 (0.159)	Contrastive Loss 8.31199	Cluster Loss 0.21504	Regularize Loss 0.32848	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [26][24/24]	Time 0.040 (0.159)	Contrastive Loss 8.31183	Cluster Loss 0.19537	Regularize Loss 0.33099	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [27][24/24]	Time 0.040 (0.157)	Contrastive Loss 8.31180	Cluster Loss 0.18986	Regularize Loss 0.33008	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [28][24/24]	Time 0.040 (0.157)	Contrastive Loss 8.31155	Cluster Loss 0.14402	Regularize Loss 0.32752	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0
-Epoch: [29][24/24]	Time 0.040 (0.159)	Contrastive Loss 8.31134	Cluster Loss 0.13708	Regularize Loss 0.32265	Read mse loss 0.00000	
-Current data information:  	1-cake10-mnist-0.1-0

@@ -1,5 +1,8 @@
 tmp/*
+__pycache__/*
+checkpoint/*
 mnist_data/*
 cifar10_data/*
+cifar100_data/*
 fashion_mnist_data/*
-__pycache__/*
+stl10_data/*
